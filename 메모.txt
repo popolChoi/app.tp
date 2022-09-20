@@ -1,0 +1,50 @@
+json_server 실행(npm run json_server)
+
+
+//create-react-app에서 env/환경변수 사용하기
+https://safe.menlosecurity.com/https://flamingotiger.github.io/frontend/react/create-react-app-environment/
+npm install dotenv --save
+
+
+
+
+
+//npm run deploy
+package.json > "scripts": {     
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
+    }
+"homepage": "http://popolChoi.github.io/[name]"
+
+
+
+카카오지도, 부동산 
+
+환율, 
+//A8Vnsrd49EgGAzVTkrQZkgBHjfwRyNMT
+
+publishConfig git 연결
+
+ui페키지: https://mui.com/
+
+//구글스프레드시트 db 로 활용?
+jeonjucutie@gmail.com
+
+----------------------------------------------
+proxy
+
+//package
+//"proxy": "https://www.koreaexim.go.kr",
+
+//프론트 프록시 서버
+//https://xiubindev.tistory.com/115
+
+//CORS 와 Proxy 우회
+https://snupi.tistory.com/210
+
+----------------------------------------------
+
+//redux
+https://kyounghwan01.github.io/blog/React/redux/redux-basic/#%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5
+redux react-redux redux-devtools-extension redux-logger
+https://freestrokes.tistory.com/161 //Redux Toolkit 
