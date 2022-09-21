@@ -6,11 +6,11 @@ import {
 } from '@mui/material';
 
 import { 
-	//useSelector, 
+	useSelector, 
 	useDispatch 
 } from 'react-redux'
 import { 
-	//RootState, 
+	RootState, 
 	actions 
 } from '../store';
 
@@ -64,15 +64,15 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 export default function CustomizedSwitches() {
 	const dispatch = useDispatch();
-	// const darkMode = useSelector((state: RootState) => state.darkMode.value)
+	const darkMode = useSelector((state: RootState) => state.darkMode.value)
 	const onClick = () => {
 		dispatch(actions.onAndOff());
-		// console.log('darkMode: ', darkMode);
+		console.log('darkMode: ', !darkMode);
 	}
 	return (
 		<FormGroup>
 			<FormControlLabel
-				control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}
+				control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked={false} />}
 				label=""
 				onClick={onClick}
 			/>

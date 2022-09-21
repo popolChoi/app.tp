@@ -1,11 +1,49 @@
 @charset "UTF-8";
 
+//background-color: #282c34;
+//data-theme="dark"
 
-.custom-app-bar {
-  background-color:transparent !important;
-  color: black !important;
-  box-shadow: none !important;
+[data-theme="dark"]{
+  *{
+    color: white;
+  }
+  body{
+    background-color:#282c34; 
+  }
+
+  .css-9mgopn-MuiDivider-root{
+    border-color: rgb(99, 99, 99);
+
+  }
+
+  .custom-drawer > div {
+    border-right: 1px solid rgb(99, 99, 99);
+  }
+  
 }
+
+[data-theme="light"]{
+  *{
+    color: black;
+  }
+  // body{
+  //   background-color: transparent;
+  // } 
+  
+}
+
+
+
+.custom {
+  &-app-bar{
+    background-color:transparent !important;
+    box-shadow: none !important;
+  }
+  &-drawer > div{
+    background-color:transparent !important;
+  }
+}
+
 
 * {
   /* 

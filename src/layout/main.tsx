@@ -89,7 +89,7 @@ export default function PersistentDrawerLeft(porps: any) {
 
 	const handleDrawerClose = () => {
 		setOpen(false);
-	};
+	};	
 
 	return (
 		<Box sx={{ display: 'flex' }}>
@@ -111,7 +111,8 @@ export default function PersistentDrawerLeft(porps: any) {
 						noWrap 
 						sx={{ flexGrow: 1 }}
 					>
-						app.tp
+						{/* app.tp  */}
+						{`${process.env.PUBLIC_URL}`}
 					</Typography>
 					<Button href={'https://mui.com/'} >mui</Button>
 					<Button href={'https://popolChoi.github.io/app.tp'}  >popolChoi.github.io/app.tp</Button>
@@ -132,6 +133,7 @@ export default function PersistentDrawerLeft(porps: any) {
 				variant="persistent"
 				anchor="left"
 				open={open}
+				className="custom-drawer"
 			>
 				<DrawerHeader>
 					<IconButton onClick={handleDrawerClose}>

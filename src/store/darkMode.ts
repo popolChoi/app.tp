@@ -6,6 +6,11 @@ export const userSlice = createSlice({
 	reducers: {
 		onAndOff: (state) => {
 			state.value = !state.value;
+			if(state.value){
+				document.documentElement.setAttribute('data-theme','dark');
+			}else {
+				document.documentElement.setAttribute('data-theme','light');
+			}
 		},
 	},
 });
