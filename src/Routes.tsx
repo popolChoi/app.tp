@@ -6,7 +6,7 @@ import Layout from './layout';
 
 
 const Router = [
-	{ title: 'Home', path: '/app.tp', element: <Home /> }
+	{ title: 'Home', path: `${process.env.PUBLIC_URL}`, element: <Home /> }
 ];
 
 
@@ -18,26 +18,19 @@ function RoutesFunction(){
 		<BrowserRouter 
 			// basename={initial}
 		> 
-			
+
+
 
 			<Layout 				
 				links={Router.map((e, i) => <Link key={i} to={e.path} className="!">{e.title}</Link>)}
 				cont={
 					<React.Fragment>
-
-				
-
-
 						<Routes>
 							<Route path={'/'} element={Router[0].element} />
 							{Router.map((e, i) => <Route  key={i} path={e.path} element={e.element} /> )}
 						</Routes>
 					</React.Fragment>
-			
-
-				
 				}/>
-		
 		</BrowserRouter> 
 		
 	
