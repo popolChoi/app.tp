@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { styled } from '@mui/material/styles';
 import {
 	FormGroup, 
@@ -9,9 +10,11 @@ import {
 	useSelector, 
 	useDispatch 
 } from 'react-redux'
+
 import { 
 	RootState, 
-	actions 
+	actions,
+	defaultValues,
 } from '../store';
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
@@ -64,15 +67,23 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 export default function CustomizedSwitches() {
 	const dispatch = useDispatch();
-	const darkMode = useSelector((state: RootState) => state.darkMode.value)
+	const darkMode = useSelector((state: RootState) => state.darkMode.value);
+
 	const onClick = () => {
-		dispatch(actions.onAndOff());
-		console.log('darkMode: ', !darkMode);
+		dispatch(actions.onAndOffToggle());
+		console.log('darkMode: ', !darkMode );
+		console.log(defaultValues.darkMode );
+
 	}
+
+	useEffect(() => {
+		dispatch(actions.onAndOff(darkMode));
+	  }, []);
+
 	return (
 		<FormGroup>
 			<FormControlLabel
-				control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked={false} />}
+				control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked={defaultValues.darkMode} />}
 				label=""
 				onClick={onClick}
 			/>

@@ -1,0 +1,478 @@
+{
+    "workable": {
+      "31": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "31",
+        "eqpDormantTime1": 19
+      },
+      "32": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "32",
+        "eqpDormantTime1": 19
+      },
+      "2R": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "2R",
+        "eqpDormantTime1": 19
+      },
+      "2S": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "2S",
+        "eqpDormantTime1": 19
+      },
+      "3D": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "3D",
+        "eqpDormantTime1": 19
+      },
+      "3U": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "3U",
+        "eqpDormantTime1": 19
+      },
+      "1F": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "1F",
+        "eqpDormantTime1": 19
+      },
+      "1G": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "1G",
+        "eqpDormantTime1": 19
+      },
+      "1P": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "1P",
+        "eqpDormantTime1": 19
+      },
+      "2Q": {
+        "groupMeaning": "작업가능시간",
+        "groupName": "workable",
+        "itemName": "2Q",
+        "eqpDormantTime1": 19
+      }
+    },
+    "hours": {
+      "31": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "31",
+        "eqpDormantTime1": 24
+      },
+      "32": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "32",
+        "eqpDormantTime1": 24
+      },
+      "2R": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "2R",
+        "eqpDormantTime1": 24
+      },
+      "2S": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "2S",
+        "eqpDormantTime1": 24
+      },
+      "3D": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "3D",
+        "eqpDormantTime1": 24
+      },
+      "3U": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "3U",
+        "eqpDormantTime1": 24
+      },
+      "1F": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "1F",
+        "eqpDormantTime1": 24
+      },
+      "1G": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "1G",
+        "eqpDormantTime1": 24
+      },
+      "1P": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "1P",
+        "eqpDormantTime1": 24
+      },
+      "2Q": {
+        "groupMeaning": "역시간",
+        "groupName": "hours",
+        "itemName": "2Q",
+        "eqpDormantTime1": 24
+      }
+    },
+    "workingRatio": {
+      "31": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "31",
+        "eqpDormantTime1": 100
+      },
+      "32": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "32",
+        "eqpDormantTime1": 100
+      },
+      "2R": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "2R",
+        "eqpDormantTime1": -1.05
+      },
+      "2S": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "2S",
+        "eqpDormantTime1": 100
+      },
+      "3D": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "3D",
+        "eqpDormantTime1": 100
+      },
+      "3U": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "3U",
+        "eqpDormantTime1": 100
+      },
+      "1F": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "1F",
+        "eqpDormantTime1": 70
+      },
+      "1G": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "1G",
+        "eqpDormantTime1": 94.21
+      },
+      "1P": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "1P",
+        "eqpDormantTime1": 100
+      },
+      "2Q": {
+        "groupMeaning": "작업시간 가동률",
+        "groupName": "workingRatio",
+        "itemName": "2Q",
+        "eqpDormantTime1": 58.42
+      }
+    },
+    "dormant": {
+      "2Q31**": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2Q31**",
+        "eqpDormantTime1": 1.3,
+        "eqpDormantTime2": 4.3
+      },
+      "1F3***": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1F3***",
+        "eqpDormantTime1": 1.1,
+        "eqpDormantTime2": 2.2
+      },
+      "2Q****": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2Q****",
+        "eqpDormantTime1": 7.9,
+        "eqpDormantTime2": 16.2
+      },
+      "2Q4317": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2Q4317",
+        "eqpDormantTime1": 5.1,
+        "eqpDormantTime2": 8
+      },
+      "1F43**": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1F43**",
+        "eqpDormantTime1": 4.7,
+        "eqpDormantTime2": 8.3
+      },
+      "2R****": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2R****",
+        "eqpDormantTime1": 19.2,
+        "eqpDormantTime2": 23
+      },
+      "2Q3***": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2Q3***",
+        "eqpDormantTime1": 6.4,
+        "eqpDormantTime2": 12.3
+      },
+      "1G31**": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1G31**",
+        "eqpDormantTime1": 0.8,
+        "eqpDormantTime2": 1.8
+      },
+      "1F4317": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1F4317",
+        "eqpDormantTime1": 1,
+        "eqpDormantTime2": 1.7
+      },
+      "1G43**": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1G43**",
+        "eqpDormantTime1": 0.3,
+        "eqpDormantTime2": 0.6
+      },
+      "1G****": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1G****",
+        "eqpDormantTime1": 1.1,
+        "eqpDormantTime2": 2.4
+      },
+      "1G3***": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1G3***",
+        "eqpDormantTime1": 0.8,
+        "eqpDormantTime2": 1.8
+      },
+      "2R43**": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2R43**",
+        "eqpDormantTime1": 17.9,
+        "eqpDormantTime2": 21.3
+      },
+      "1G4***": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1G4***",
+        "eqpDormantTime1": 0.3,
+        "eqpDormantTime2": 0.6
+      },
+      "2R31**": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2R31**",
+        "eqpDormantTime1": 1.4,
+        "eqpDormantTime2": 1.7
+      },
+      "2Q4***": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2Q4***",
+        "eqpDormantTime1": 1.5,
+        "eqpDormantTime2": 3.9
+      },
+      "2R4***": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2R4***",
+        "eqpDormantTime1": 17.9,
+        "eqpDormantTime2": 21.3
+      },
+      "2R3***": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2R3***",
+        "eqpDormantTime1": 1.4,
+        "eqpDormantTime2": 1.7
+      },
+      "1F4***": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1F4***",
+        "eqpDormantTime1": 4.7,
+        "eqpDormantTime2": 8.3
+      },
+      "1F31**": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1F31**",
+        "eqpDormantTime1": 0,
+        "eqpDormantTime2": 0.5
+      },
+      "2Q43**": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "2Q43**",
+        "eqpDormantTime1": 1.5,
+        "eqpDormantTime2": 3.9
+      },
+      "1F****": {
+        "groupMeaning": "휴지시간",
+        "groupName": "dormant",
+        "itemName": "1F****",
+        "eqpDormantTime1": 5.7,
+        "eqpDormantTime2": 10.5
+      }
+    },
+    "working": {
+      "31": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "31",
+        "eqpDormantTime1": 19,
+        "eqpDormantTime2": 24
+      },
+      "32": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "32",
+        "eqpDormantTime1": 19,
+        "eqpDormantTime2": 24
+      },
+      "2R": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "2R",
+        "eqpDormantTime1": -0.2,
+        "eqpDormantTime2": 1
+      },
+      "2S": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "2S",
+        "eqpDormantTime1": 19,
+        "eqpDormantTime2": 24
+      },
+      "3D": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "3D",
+        "eqpDormantTime1": 19,
+        "eqpDormantTime2": 24
+      },
+      "3U": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "3U",
+        "eqpDormantTime1": 19,
+        "eqpDormantTime2": 24
+      },
+      "1F": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "1F",
+        "eqpDormantTime1": 13.3,
+        "eqpDormantTime2": 13.5
+      },
+      "1G": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "1G",
+        "eqpDormantTime1": 17.9,
+        "eqpDormantTime2": 21.6
+      },
+      "1P": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "1P",
+        "eqpDormantTime1": 19,
+        "eqpDormantTime2": 24
+      },
+      "2Q": {
+        "groupMeaning": "작업시간",
+        "groupName": "working",
+        "itemName": "2Q",
+        "eqpDormantTime1": 11.1,
+        "eqpDormantTime2": 7.8
+      }
+    },
+    "hoursRatio": {
+      "31": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "31",
+        "eqpDormantTime1": 100
+      },
+      "32": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "32",
+        "eqpDormantTime1": 100
+      },
+      "2R": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "2R",
+        "eqpDormantTime1": 4.17
+      },
+      "2S": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "2S",
+        "eqpDormantTime1": 100
+      },
+      "3D": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "3D",
+        "eqpDormantTime1": 100
+      },
+      "3U": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "3U",
+        "eqpDormantTime1": 100
+      },
+      "1F": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "1F",
+        "eqpDormantTime1": 56.25
+      },
+      "1G": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "1G",
+        "eqpDormantTime1": 90
+      },
+      "1P": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "1P",
+        "eqpDormantTime1": 100
+      },
+      "2Q": {
+        "groupMeaning": "역시간 가동률",
+        "groupName": "hoursRatio",
+        "itemName": "2Q",
+        "eqpDormantTime1": 32.5
+      }
+    }
+  }

@@ -1,19 +1,23 @@
 @charset "UTF-8";
+@import "./table.scss";
 
-//background-color: #282c34;
-//data-theme="dark"
+$darkMode-color: white;
+$darkMode-background-color: #282c34;
+
+$lightMode-color: black;
+$lightMode-background-color: white;
 
 [data-theme="dark"]{
   *{
-    color: white;
+    color: $darkMode-color;
   }
+
   body{
-    background-color:#282c34; 
+    background-color: $darkMode-background-color; 
   }
 
   .MuiDivider-root{
     border-color: rgb(99, 99, 99);
-
   }
 
   .custom {
@@ -25,21 +29,21 @@
       background:#282c34; 
     }
   }
+
+
+  table{
+    *{ color: $lightMode-color; }
+  }
+
 }
 
 [data-theme="light"]{
   .custom {
     &-app-bar{
       background: rgba(255,255,255,0.9);
-
-
-      
     }
-   
   }
 }
-
-
 
 .custom {
   &-app-bar{
@@ -53,12 +57,15 @@
 .MuiList-root{
   a{
     width: 100%;
-    text-decoration: none;
+    // text-decoration: none;
   }
 }
 
 
-
+a{
+  // width: 100%;
+  text-decoration: none;
+}
 
 * {
   /* 
@@ -66,7 +73,7 @@
   font-size:15px;
   padding: 0px;
   margin: 0px;
-  color: black;
+  color: $lightMode-color;
 }
 
 body {

@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import reducer  from './reducer';
 import darkMode  from './darkMode';
-import {actions as darkModeActions}  from './darkMode';
+import {actions as darkModeActions, defaultValue}  from './darkMode';
 
 export const store = configureStore({
 	reducer:{
@@ -14,8 +14,13 @@ export const store = configureStore({
 
 export type RootState = ReturnType<typeof store.getState>;
 export const actions = {
-	...darkModeActions
+	...darkModeActions,
 };
+
+export const defaultValues = {
+	darkMode: defaultValue,
+};
+
 
 export default store;
 
