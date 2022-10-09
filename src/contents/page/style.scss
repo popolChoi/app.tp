@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean');    
+
+.portfolio {
+  // min-height: 3000px;
+
+  article{
+    min-height: 500px;
+    background-color: #f9c51d; 
+  }
+
+  &-gate{
+    min-height: 800px;
+    position: relative;
+    padding: calc(4rem + 4.5rem) 2rem 4rem;
+
+  
+
+    &:before{
+      content: "";
+      position: absolute; 
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: -moz-linear-gradient(top,rgba(112,93,80,.8) 0,rgba(112,93,80,.8) 90%),url(./gate.jpg) 50% no-repeat;
+      background: linear-gradient(180deg,rgba(112,93,80,.8) 0,rgba(112,93,80,.8) 90%),url(./gate.jpg) 50% no-repeat;
+      background: -o-linear-gradient(top,rgba(112,93,80,.8) 0,rgba(112,93,80,.8) 90%),url(./gate.jpg) 50% no-repeat;
+      background-size: cover;
+      z-index: -1;
+  
+    }
+
+    &>div>div {
+      margin: 0 auto 2rem;
+      font-size: 1.25rem;
+      color: hsla(0,0%,100%,.75);
+      line-height: 1.5;
+    }
+
+    &-title {
+      font-family: Black Han Sans;
+      font-weight: 400;
+      font-size: 4rem !important;
+      color: #fff;
+      word-break: keep-all;
+    }
+
+    // button{
+    //   background-color: #f4623a;
+
+    // }
+
+ 
+
+  }
+  
+  
+  
+ 
+}

@@ -16,14 +16,22 @@ $lightMode-background-color: white;
     background-color: $darkMode-background-color; 
   }
 
+
   .MuiDivider-root{
     border-color: rgb(99, 99, 99);
   }
 
+  
+  //Grid
+  .css-mhc70k-MuiGrid-root {
+    margin-top: 0;
+    width: 100%; 
+    margin-left: 0;
+  } 
+
   .custom {
     &-app-bar{
       background: rgb(40, 44, 52,0.9); 
-      
     }
     &-drawer > div{
       background:#282c34; 
@@ -70,7 +78,7 @@ a{
 * {
   /* 
   text-align:right; */
-  font-size:15px;
+  // font-size:15px;
   padding: 0px;
   margin: 0px;
   color: $lightMode-color;
