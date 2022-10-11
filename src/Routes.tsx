@@ -3,7 +3,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import Layout from './layout';
-
 import contents from './contents';
 
 function RoutesFunction(){

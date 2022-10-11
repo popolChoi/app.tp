@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import * as React from 'react';
 import { styled, useTheme } from '@mui/material/styles';
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';
@@ -37,7 +36,7 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
   open?: boolean;
 }>(({ theme, open }) => ({
 	flexGrow: 1,
-	padding: theme.spacing(3),
+	// padding: theme.spacing(3),
 	transition: theme.transitions.create('margin', {
 		easing: theme.transitions.easing.sharp,
 		duration: theme.transitions.duration.leavingScreen,
@@ -134,10 +133,9 @@ export default function PersistentDrawerLeft(props: any) {
 							sx={{ flexGrow: 1 }}
 						>
 							{/* app.tp  */}
-							<a  href={'https://mui.com/'}>{`${process.env.PUBLIC_URL}`}</a>
+							{props.toplist.right.map( (e: any) => <a {...e} >{e.text}</a>)}
 						</Typography>
-						<Button href={'https://mui.com/'} >mui</Button>
-						<Button href={'https://popolChoi.github.io/app.tp'}  >popolChoi.github.io/app.tp</Button>
+						{props.toplist.left.map( (e: any) => <Button {...e} >{e.text}</Button>)}
 						<DarkModeBt />
 					</Toolbar>
 				</AppBar>
@@ -184,13 +182,11 @@ export default function PersistentDrawerLeft(props: any) {
 			<Main 
 				// open={open}
 			>
-			    <Container fixed>
-
-			    <DrawerHeader />
-
-			{ props.cont }
+			    {/* <Container fixed> */}
+				<DrawerHeader /> 
+				{ props.cont }
 			
-			</Container>
+			{/* </Container> */}
             </Main>
 		
 		</Box>
