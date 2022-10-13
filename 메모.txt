@@ -1,3 +1,5 @@
+낙서장임
+
 json_server 실행(npm run json_server)
 
 
@@ -6,7 +8,7 @@ https://safe.menlosecurity.com/https://flamingotiger.github.io/frontend/react/cr
 npm install dotenv --save
 
 
-
+스컬레톤
 
 
 //npm run deploy

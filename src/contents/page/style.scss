@@ -6,7 +6,17 @@
 
   article{
     min-height: 500px;
-    background-color: #f9c51d; 
+    // background-color: #f9c51d;
+    padding: 30px 10px;
+
+    .portfolio-gate-title{
+      font-size: 2.5rem;
+      padding: 0px 10px;
+
+    }
+    &>div{
+      padding: 30px 10px;
+    }
   }
 
   &-gate{
@@ -41,7 +51,7 @@
     &-title {
       font-family: Black Han Sans;
       font-weight: 400;
-      font-size: 4rem !important;
+      font-size: 4rem;
       color: #fff;
       word-break: keep-all;
     }

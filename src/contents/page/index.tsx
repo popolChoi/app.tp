@@ -1,14 +1,16 @@
 import React, { HtmlHTMLAttributes, MouseEventHandler } from "react";
 
-import { Link, Element } from "react-scroll"
+import { Link } from "react-scroll"
 
 import { styled } from '@mui/material/styles';
 import {
     Box,
-	Grid,
+	// Grid,
     Container,
     Button,
+    Divider,
 } from '@mui/material';
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 import './style.scss';
 
@@ -59,8 +61,10 @@ export function index(props: any){
     };
     return( 
         <React.Fragment>
+                                        {/* <a href="https://cdg-portfolio.com/">https://cdg-portfolio.com/</a> */}
+
             <div className="portfolio">
-                <div className="portfolio-gate">
+                {/* <div className="portfolio-gate">
                     <Container fixed  className="center">
                         <div className="portfolio-gate-title">- 최수지 -<br />웹 개발자 포트폴리오</div>
                         <div>
@@ -71,19 +75,40 @@ export function index(props: any){
 
                         <Link to="#1" spy={true} smooth={true}>
                             <BootstrapButton  variant="contained" size="large" >더 알아보기</BootstrapButton>
-                            {/* <a href="https://cdg-portfolio.com/">https://cdg-portfolio.com/</a> */}
                         </Link>
-                        
-
-
                     </Container>
-                </div>
+                </div> */}
 
                     <article id="#1">
-                    
-                    </article>       
-                
-               
+                        <div className="portfolio-gate-title center">ABOUT ME </div>
+                        <Divider />
+                        <Grid container spacing={2} className="center">
+                            <Grid xs={6}>1</Grid>
+                            <Grid xs={6}>1</Grid>
+                            <Grid xs={6}>1</Grid>
+                            <Grid xs={6}>1</Grid>
+                        </Grid>
+                    </article>   
+                    <Divider />
+                    <article id="#2">
+                        <div className="portfolio-gate-title center">SKILLS</div>
+                        <Divider />
+                    </article>
+                    <Divider />
+                    <article id="#3">
+                        <div className="portfolio-gate-title center">ARCHIVING</div>
+                        <Divider />
+                    </article>
+                    <Divider />
+                    <article id="#4">
+                        <div className="portfolio-gate-title center">PROJECTS</div>
+                        <Divider />
+                    </article>
+                    <Divider />
+                    <article id="#5">
+                        <div className="portfolio-gate-title center">CAREER</div>
+                        <Divider />
+                    </article>
             </div>
          
         </React.Fragment>
